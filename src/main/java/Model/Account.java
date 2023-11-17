@@ -48,6 +48,8 @@ public class Account {
         this.username = username;
         this.password = password;
     }
+    public Account(String sql) {
+    }
     /**
      * Properly named getters and setters are necessary for Jackson ObjectMapper to work. You may use them as well.
      * @return account_id
